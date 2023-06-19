@@ -105,6 +105,11 @@
     "no-bitwise": "warn",
     "no-caller": "error",
     "no-case-declarations": "error",
+    "no-confusing-arrow": ["off", { "allowParens": true, "onlyOneSimpleParam": true }],
+    "no-console": "off",
+    "no-continue": "off",
+    "no-delete-var": "error",
+    "no-div-regex": "off",
 
 
 
