@@ -112,7 +112,7 @@
     "no-div-regex": "off",
     "no-else-return": ["warn", { "allowElseIf": false }],
     "no-empty": ["error", { "allowEmptyCatch": true }],
-    "no-empty-function": ["error", { "allow": ["constructors"] }],
+    "no-empty-function": ["warn", { "allow": ["constructors"] }],
     "no-empty-static-block": "error",
     "no-eq-null": "error",
     "no-eval": ["error", { "allowIndirect": false }],
@@ -190,6 +190,10 @@
     "prefer-arrow-callback": ["error", { "allowNamedFunctions": true, "allowUnboundThis": true }],
     "prefer-const": ["warn", { "destructuring": "all", "ignoreReadBeforeAssign": true }],
     "prefer-destructuring": ["warn", { "array": false, "object": true }, { "enforceForRenamedProperties": false }],
+    "prefer-exponentiation-operator": "warn",
+    "prefer-named-capture-group": "off",
+    "prefer-numeric-literals": "error",
+    "prefer-object-has-own": "off",// ES2022
 
 
 
