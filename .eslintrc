@@ -200,6 +200,12 @@
     "prefer-rest-params": "warn",// ES2015
     "prefer-spread": "warn",// ES2015
     "prefer-template": "warn",// ES2015
+    "quote-props": ["warn", "as-needed", { "keywords": false, "unnecessary": true, "numbers": false }],
+    "radix": ["warn", "as-needed"],
+    "require-await": "warn",
+    "require-unicode-regexp": "off",
+    "require-yield": "error",
+    "sort-imports": ["warn", { "ignoreCase": false, "ignoreDeclarationSort": false, "ignoreMemberSort": false, "memberSyntaxSortOrder": ["none", "all", "multiple", "single"], "allowSeparatedGroups": true }],
     
 
 
