@@ -206,7 +206,7 @@
     "require-await": "warn",
     "require-unicode-regexp": "off",
     "require-yield": "error",
-    "sort-imports": ["warn", { "ignoreCase": false, "ignoreDeclarationSort": false, "ignoreMemberSort": false, "memberSyntaxSortOrder": ["none", "all", "multiple", "single"], "allowSeparatedGroups": true }],
+    "sort-imports": ["warn", { "ignoreCase": false, "ignoreDeclarationSort": false, "ignoreMemberSort": false, "memberSyntaxSortOrder": ["single", "multiple", "all", "none"], "allowSeparatedGroups": true }],
     "sort-keys": ["warn", "asc", { "caseSensitive": true, "natural": false, "minKeys": 2, "allowLineSeparatedGroups": true }],
     "sort-vars": ["warn", { "ignoreCase": false }],
     "spaced-comment": ["warn", "always", { "line": { "markers": ["/"], "exceptions": ["-", "+"] }, "block": { "markers": ["!"], "exceptions": ["*"], "balanced": true } }],
@@ -250,7 +250,7 @@
     "no-extra-parens": "warn",
     "no-mixed-spaces-and-tabs": ["warn", "smart-tabs"],
     "no-multi-spaces": ["warn", { "ignoreEOLComments": false }],
-    "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
+    "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 1, "maxBOF": 0 }],
     "no-tabs": ["warn", { "allowIndentationTabs": false }],
     "no-trailing-spaces": ["warn", { "skipBlankLines": false, "ignoreComments": false }],
     "no-whitespace-before-property": "warn",
@@ -277,6 +277,25 @@
     "unicode-bom": ["warn", "never"],
     "wrap-iife": ["warn", "inside", { "functionPrototypeMethods": true }],
     "wrap-regex": "off",
-    "yield-star-spacing": ["warn", { "before": false, "after": true }]
+    "yield-star-spacing": ["warn", { "before": false, "after": true }],
+
+    // typescript-eslint
+    "@typescript-eslint/adjacent-overload-signatures": "warn",
+    "@typescript-eslint/array-type": ["warn", { "default": "array" }],
+    "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "@typescript-eslint/ban-tslint-comment": "off",
+    "@typescript-eslint/ban-types": "warn",
+    "@typescript-eslint/class-literal-property-style": ["warn", "fields"],
+    "@typescript-eslint/consistent-generic-constructors": "off",
+    "@typescript-eslint/consistent-indexed-object-style": ["warn", "record"],
+    "@typescript-eslint/consistent-type-assertions": ["warn", { "assertionStyle": "as", "objectLiteralTypeAssertions": "never" }],
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/consistent-type-exports": "off",
+    "@typescript-eslint/consistent-type-imports": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/member-delimiter-style": "off"
   }
 }
