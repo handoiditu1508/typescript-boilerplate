@@ -5,8 +5,10 @@
   "javascript.preferences.quoteStyle": "double",
   "typescript.format.semicolons": "insert",
   "typescript.preferences.quoteStyle": "double",
-  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript", "typescript"],
+  // "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
     "source.organizeImports": true
   }
 }
